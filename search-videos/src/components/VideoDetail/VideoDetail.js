@@ -3,7 +3,7 @@ import React from 'react';
 const VideoDetail = ({ video }) => {
   if (!video) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div>
         <h2>Loading...</h2>
       </div>
     );
